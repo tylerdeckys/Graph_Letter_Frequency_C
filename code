@@ -11,7 +11,7 @@ int main(){
     for (int i = 0; i<9; i++)
     letterfreq[i] = 0;
 
-    printf("\nPlease type a string and indicate its end by typing a space followed by a '|'\ni.e)'test test |'\nThe length of each word in the string will then be graphed.\n\n");
+    printf("\nPlease type a string and indicate its end by typing a space followed by a '|'\ni.e.)'test test |'\nThe length of each word in the string will then be graphed.\n\n");
 
     while((c = getchar()) != '|')
     {
