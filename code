@@ -62,8 +62,10 @@ int main(){
         printf("\n");
     }
     printf("\n     ");
-    for (int i = 0; i<9; i++)       //print out frequency of letters
-    printf("%d    ",letterfreq[i]);
+    for (int i = 1; i<9; i++)       
+    printf("%d    ",i);
+    printf("9+");
+    printf("\n\nY Axis: Frequency of words with respective length\nX Axis: Respective length of word\n");
 
 return 0;
 }
