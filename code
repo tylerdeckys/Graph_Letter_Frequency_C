@@ -11,6 +11,8 @@ int main(){
     for (int i = 0; i<9; i++)
     letterfreq[i] = 0;
 
+    printf("\nPlease type a string and indicate its end by typing a space followed by a '|'\ni.e)'test test |'\nThe length of each word in the string will then be graphed.\n\n");
+
     while((c = getchar()) != '|')
     {
 
@@ -37,7 +39,7 @@ int main(){
         max = letterfreq[i]; 
     }  
 
-    printf("\n");
+    printf("\nThe following is your graph:\n\n\n");
 
     for (int i = max; i>0; i--)     //looping from top to bottom row
     {
