@@ -70,7 +70,7 @@ int main(){
     for (int i = 1; i<9; i++)       
     printf("%d    ",i);
     printf("9+");
-    printf("\n\nY Axis: Frequency of words with respective length\nX Axis: Respective length of word\n\n");
+    printf("\n\nY Axis: Frequency of words with respective length\nX Axis: Length of word\n\n");
 
 return 0;
 }
